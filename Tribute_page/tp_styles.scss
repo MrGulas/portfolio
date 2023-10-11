@@ -1,0 +1,55 @@
+$background-color_1: aquamarine;
+
+* {
+	text-align: center;
+}
+#img-div {
+	text-align: center;
+}
+img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+#img-caption {
+	padding-top: 20px;
+	font-weight: 100;
+}
+.header {
+	background-color: $background-color_1;
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+}
+.title {
+	font-style: italic;
+}
+.facts {
+	max-width: 1000px;
+	margin: 0 auto;
+	background-color: $background-color_1;
+	padding: 20px;
+	li {
+		text-align: left;
+		font-size: 18px;
+		padding-bottom: 20px;
+	}
+	h3 {
+		font-size: 25px;
+		padding-bottom: 20px;
+	}
+	span {
+		font-weight: bold;
+	}
+}
+.citation {
+	display: flex;
+	justify-content: center;
+	p {
+		margin: 0;
+		font-style: italic;
+		font-size: 16px;
+		text-align: left;
+	}
+}
